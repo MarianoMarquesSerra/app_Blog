@@ -1,13 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: #EEF3F5;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+#root {
+    display: flex;
+    justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ContenedorPrincipal{
+    padding: 40px;
+    width: 90%;
+    max-width: 700px;
+}
+
+.PaginaInicio{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.ContenedorBlog{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: lightseagreen;
+    top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.ContenedorError404{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 102, 0, 0.63);
+    top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.ContenedorArticulo{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(49, 178, 32, 0.185);
+    top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.Acercade{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: orange;
+    top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+ 
+.Menu {
+    text-decoration: none;
+    padding: 10px;
+}
+ 
+.Menu:hover {
+    text-decoration: underline;
+    cursor:pointer;
 }
